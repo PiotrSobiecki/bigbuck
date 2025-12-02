@@ -13,9 +13,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HUD Design – Ledger Inspired",
+  title: "Big Buck Bunny - Open Source Animation",
   description:
-    "Interfejs inspirowany stroną HUD Design od Ledger – przykładowa implementacja w Next.js i TypeScript.",
+    "Discover the world of Big Buck Bunny - an open-source animated short film featuring our gentle giant rabbit. A heartwarming story of friendship, adventure, and the magic of animated storytelling.",
+  keywords: [
+    "Big Buck Bunny",
+    "animation",
+    "open source",
+    "Blender Foundation",
+    "animated film",
+    "character design",
+  ],
+  icons: {
+    icon: "/bigbuck/favicon.png",
+    apple: "/bigbuck/favicon.png",
+  },
+  openGraph: {
+    title: "Big Buck Bunny - Open Source Animation",
+    description:
+      "Discover the world of Big Buck Bunny - an open-source animated short film featuring our gentle giant rabbit.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
