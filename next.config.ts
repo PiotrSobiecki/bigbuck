@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // basePath: "/bigbuck", // Odkomentuj jeśli repo nie jest w root
-  // assetPrefix: "/bigbuck", // Odkomentuj jeśli repo nie jest w root
+  basePath: "/bigbuck",
+  assetPrefix: "/bigbuck",
 };
 
 export default nextConfig;
