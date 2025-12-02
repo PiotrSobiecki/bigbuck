@@ -1058,4 +1058,195 @@
   .menuModalFooterRight {
     text-align: left;
   }
+
+  /* Header mobile */
+  .header {
+    padding: 12px 5vw 8px;
+  }
+
+  .headerLogoCircle {
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .headerTagline {
+    font-size: 10px;
+  }
+
+  .headerTagline span {
+    font-size: 10px;
+  }
+
+  .menuButton {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  /* Hero Section mobile */
+  .heroSection {
+    height: 100vh;
+  }
+
+  .titleSvg {
+    height: min(50vh, 400px);
+  }
+
+  .titleText {
+    font-size: 80px !important;
+  }
+
+  .heroBottom {
+    bottom: 20vh;
+  }
+
+  .videoContent {
+    padding: 0 5vw 32px;
+  }
+
+  .location {
+    font-size: 12px;
+  }
+
+  .videoTitle {
+    font-size: clamp(20px, 5vw, 32px);
+  }
+
+  /* Second Section mobile */
+  .secondSection {
+    padding: 80px 5vw;
+    margin-top: -150px;
+  }
+
+  .secondSectionHeading {
+    font-size: clamp(24px, 6vw, 32px);
+    max-width: 100%;
+  }
+
+  .secondSectionParagraph {
+    font-size: clamp(16px, 4vw, 20px);
+    max-width: 100%;
+    align-self: flex-start;
+  }
+
+  .secondSectionStats {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .secondSectionStatIcon {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Third Section mobile */
+  .thirdSection {
+    padding: 60px 5vw;
+    min-height: 100vh;
+  }
+
+  .thirdSectionTileContent {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .thirdSectionTileLeft {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .thirdSectionTileTitle {
+    font-size: clamp(32px, 8vw, 64px);
+  }
+
+  .thirdSectionTileImage {
+    max-width: 100%;
+    margin: 20px 0;
+  }
+
+  /* Fourth Section mobile */
+  .fourthSectionGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 5vw;
+  }
+
+  .fourthSectionColumn {
+    display: none;
+  }
+
+  .fourthSectionColumn:first-child,
+  .fourthSectionColumn:nth-child(3) {
+    display: block;
+  }
+
+  .fourthSectionColumnCenter {
+    grid-column: 1;
+    position: relative;
+    top: auto;
+    padding: 40px 0;
+  }
+
+  .fourthSectionTitle {
+    font-size: clamp(32px, 8vw, 48px);
+  }
+
+  /* Fifth Section mobile */
+  .fifthSection {
+    padding: 80px 5vw;
+  }
+
+  .fifthSectionTitle {
+    font-size: clamp(32px, 8vw, 48px);
+  }
+
+  .fifthSectionGrid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  /* Footer mobile */
+  .footerSection {
+    padding: 60px 5vw 40px;
+  }
+
+  .footerGrid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footerTitleText {
+    font-size: clamp(48px, 12vw, 96px);
+  }
+
+  /* Menu Modal mobile */
+  .menuModalNav {
+    padding-left: 5vw;
+  }
+
+  .menuModalVideo {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titleText {
+    font-size: 60px !important;
+  }
+
+  .heroBottom {
+    bottom: 15vh;
+  }
+
+  .thirdSectionTileTitle {
+    font-size: clamp(28px, 10vw, 48px);
+  }
+
+  .menuModalNavItem {
+    font-size: clamp(20px, 10vw, 36px);
+  }
 }
