@@ -15,7 +15,7 @@
 
 # next.js
 /.next/
-/out/
+# /out/ - Odkomentuj jeśli chcesz ignorować folder out (nie potrzebne dla GitHub Pages)
 
 # production
 /build
