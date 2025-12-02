@@ -30,7 +30,7 @@ export default function ThirdSection() {
       location: "ANIMATION STUDIO",
       client: "BLENDER FOUNDATION",
       agency: "CHARACTER DESIGN",
-      image: "/image/poster_rodents_bunnysize.jpg",
+      image: "/bigbuck/image/poster_rodents_bunnysize.jpg",
     },
     {
       id: 2,
@@ -41,7 +41,7 @@ export default function ThirdSection() {
       location: "ANIMATION STUDIO",
       client: "BLENDER FOUNDATION",
       agency: "ANIMATION DIRECTION",
-      image: "/image/maxresdefault.jpg",
+      image: "/bigbuck/image/maxresdefault.jpg",
     },
     {
       id: 3,
@@ -52,7 +52,7 @@ export default function ThirdSection() {
       location: "ANIMATION STUDIO",
       client: "BLENDER FOUNDATION",
       agency: "CREATIVE DIRECTION",
-      image: "/image/Big_Buck_Bunny_loves_Creative_Commons.png",
+      image: "/bigbuck/image/Big_Buck_Bunny_loves_Creative_Commons.png",
     },
   ];
 

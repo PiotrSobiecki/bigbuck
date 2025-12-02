@@ -64,22 +64,22 @@ export default function FourthSection() {
   const leftImages = [
     {
       id: 1,
-      src: "/image/images (1).jpg",
+      src: "/bigbuck/image/images (1).jpg",
       order: 0, // pierwsze wjeżdża
     },
     {
       id: 3,
-      src: "/image/images (3).jpg",
+      src: "/bigbuck/image/images (3).jpg",
       order: 2, // trzecie wjeżdża
     },
     {
       id: 2,
-      src: "/image/images (2).jpg",
+      src: "/bigbuck/image/images (2).jpg",
       order: 1, // drugie wjeżdża
     },
     {
       id: 4,
-      src: "/image/images (4).jpg",
+      src: "/bigbuck/image/images (4).jpg",
       order: 3, // czwarte wjeżdża
     },
   ];
@@ -88,22 +88,22 @@ export default function FourthSection() {
   const rightImages = [
     {
       id: 2,
-      src: "/image/images (5).jpg",
+      src: "/bigbuck/image/images (5).jpg",
       order: 0, // pierwsze wjeżdża
     },
     {
       id: 4,
-      src: "/image/images.jpg",
+      src: "/bigbuck/image/images.jpg",
       order: 1, // drugie wjeżdża
     },
     {
       id: 1,
-      src: "/image/hq720.jpg",
+      src: "/bigbuck/image/hq720.jpg",
       order: 2, // trzecie wjeżdża
     },
     {
       id: 3,
-      src: "/image/sddefault.jpg",
+      src: "/bigbuck/image/sddefault.jpg",
       order: 3, // czwarte wjeżdża
     },
   ];

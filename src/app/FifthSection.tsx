@@ -40,21 +40,21 @@ export default function FifthSection() {
       title: "Big Buck Bunny Celebrates 15 Years",
       description:
         "Fifteen years of bringing joy to millions worldwide. Big Buck Bunny continues to inspire animators, filmmakers, and audiences with its timeless story of friendship and adventure in the animated forest.",
-      image: "/image/poster_rodents_bunnysize.jpg",
+      image: "/bigbuck/image/poster_rodents_bunnysize.jpg",
     },
     {
       id: 2,
       title: "Behind the Scenes: Creating Big Buck Bunny",
       description:
         "Explore the creative process behind our beloved character - from initial sketches to final animation, discover how Big Buck Bunny came to life.",
-      image: "/image/maxresdefault.jpg",
+      image: "/bigbuck/image/maxresdefault.jpg",
     },
     {
       id: 3,
       title: "Big Buck Bunny: Open Source Animation Legacy",
       description:
         "Celebrating the impact of open-source animation. Big Buck Bunny has become a symbol of creative freedom and collaborative storytelling in the animation community.",
-      image: "/image/Big_Buck_Bunny_loves_Creative_Commons.png",
+      image: "/bigbuck/image/Big_Buck_Bunny_loves_Creative_Commons.png",
     },
   ];
 
